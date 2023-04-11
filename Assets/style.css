@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: #FFD900;
+    max-height: 15%;
+    padding: 1.2vw;
+    width: auto;
+}
+#logo{
+    max-height: 12%;
+}
+
+#mainSec{
+    max-width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1.5rem;
+;
+}
+#mainText{
+    padding: 1rem;
+    max-width: 80%;
+    background-color: #514988;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mainText h1{
+    font-size: 4.375rem;
+    color:#F3C61F;
+    text-align: center;
+}
+#mainText h3, p{
+    font-size: 1.75rem;
+    color:white;
+    font-weight: normal;
+}
+
+#mainVideo{
+    display: grid;
+    grid-auto-flow: row;
+    width: 100%;
+    margin: 1rem;
+}
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.75rem;
+    color: #514988;
+    justify-content: space-around;
+}
+
+#mainVideo h3{
+    font-size: 1.75rem;
+    color:#E33881;
+    font-weight: bold;
+    font-style: normal;
+}
