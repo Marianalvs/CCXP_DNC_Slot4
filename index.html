@@ -39,13 +39,13 @@
       <h3 id="titleTicket">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
       <div id="bottomSection">
         <div>
-          <img src="Assets/Images/Quinta.svg"/>
-          <img src="Assets/Images/sexta.svg"/>
-          <img src="Assets/Images/sabado.svg"/>
-          <img src="Assets/Images/domingo.svg"/>
+          <img src="Assets/Images/Quinta.svg" onmouseover="highlightCard('#ticketThu')"  onmouseout="highlightCard('#ticketThu')" id="ticketThu" />
+          <img src="Assets/Images/sexta.svg" onmouseover="highlightCard('#ticketFri')" onmouseout="highlightCard('#ticketFri')" id="ticketFri" />
+          <img src="Assets/Images/sabado.svg" onmouseover="highlightCard('#ticketSat')" onmouseout="highlightCard('#ticketSat')" id="ticketSat" />
+          <img src="Assets/Images/domingo.svg" onmouseover="highlightCard('#ticketSun')" onmouseout="highlightCard('#ticketSun')" id="ticketSun" />
         </div>
         
-        <button>GARANTA O SEU!</button>
+        <button onclick="thank()"> GARANTA O SEU! </button>
       </div>
       
     </section>

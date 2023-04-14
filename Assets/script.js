@@ -31,6 +31,20 @@ function formatoTempo(tempo) {
   countDown();
   setInterval(countDown, 1000);
 
-  //botão
+// Card Highlighted
 
-  
+function highlightCard (selector) {
+    var element = document.querySelector(selector);
+    element.classList.toggle("card");
+}
+
+
+//botão
+function thank(){
+  alert (`Te esperamos para uma experiência épica!`)
+} 
+
+
+
+
+

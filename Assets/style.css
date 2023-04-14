@@ -30,6 +30,7 @@ nav{
     font-size: 1.75rem;
     color:white;
     font-weight: normal;
+    text-align: center;
 }
 
 #mainVideo{
@@ -68,6 +69,7 @@ nav{
     display: grid;
     grid-auto-flow: column;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 #titleTicket{
@@ -87,4 +89,14 @@ button{
     color: #FFFFFF;
     font-size: 2.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover{
+    background: #f3c61F;
+    border-color: #514988;
+   
+}
+
+.card{
+    box-shadow: .3rem 0.3rem 0.5rem #f3c61F;
 }
